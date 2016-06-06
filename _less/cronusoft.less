@@ -1,0 +1,68 @@
+header .logo a:hover, a:focus {
+  text-decoration: none;
+}
+
+.logo-title {
+  position: relative;
+
+  &:hover {
+    width: inherit;
+    .logo-soft .logo-capital-letter {
+      top: 0;
+      left: 0;
+    }
+    .logo-text{
+      opacity: 1;
+    }
+  }
+
+  .logo-text, .logo-capital-letter {
+    display: inline-block;
+  }
+
+  .logo-text {
+    -webkit-transition: opacity 0.2s ease-in-out;
+    opacity: 0;
+  }
+
+  .logo-cronu, .logo-soft {
+    position: relative;
+  }
+
+  .logo-cronu {
+    color: @color-darker;
+    .logo-capital-letter {
+      color: @color-darker;
+    }
+  }
+
+  .logo-soft {
+    color: @color-2;
+    .logo-capital-letter {
+      -webkit-transition: top, left 0.4s ease-in-out;
+      color: @color-2;
+      position: relative;
+      left: -82px;
+    }
+  }
+
+  .logo-capital-letter {
+    img {
+      width: 25px;
+    }
+  }
+}
+
+.title .logo-capital-letter {
+  padding-right: 8px;
+}
+
+.icon-holder {
+  i {
+    color: @color-2 !important;
+  }
+}
+
+.promo .main-content {
+  height: 350px;
+}

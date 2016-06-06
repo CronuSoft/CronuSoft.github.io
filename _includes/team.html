@@ -1,0 +1,24 @@
+<section id="team" class="section">
+  <div class="container">
+    <h2 class="title text-center">Meet the Team</h2>
+    <p class="intro text-center">Young and courageous, yet determined and <strong>professional</strong> people. They will find <strong>passion</strong> in your project.</p>
+    <div class="row">
+      {% for team_member in site.team_members %}
+        <div class="col-xs-12 col-sm-4">
+          <div class="team-member">
+            <h3>{{ team_member.name }}</h3>
+            {{ team_member.content }}
+            <div class="profile-picture">
+              <img class="img-responsive" src="{{ team_member.profile-picture }}" alt="{{ team_member.name }}">
+            </div>
+            <div class="social">
+              <a target="_blank" href="{{ team_member.linkedin }}"><i class="fa fa-2x fa-linkedin-square"></i></a>
+              <a target="_blank" href="{{ team_member.facebook }}"><i class="fa fa-2x fa-facebook-square"></i></a>
+              <a target="_blank" href="{{ team_member.github }}"><i class="fa fa-2x fa-github-square"></i></a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

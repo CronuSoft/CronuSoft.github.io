@@ -1,0 +1,70 @@
+#promo {
+  height: 100vh;
+  padding-top: 35vh;
+  background-image: url("http://download.1wallpaper.net/20150927/mountains-night-sky-stars-1920x1200.jpg"), url("../images/mountains-night-sky-stars-1920x1200.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+
+  .social-media {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  @media (max-width: 480px) {
+    .social-media {
+      display: none;
+    }
+  }
+
+  .title {
+    position: relative;
+
+    .mate, .team {
+      position: relative;
+    }
+
+    .team, .floating-t {
+      color: @color-2;
+    }
+
+    .floating-m, .floating-t {
+      position: absolute;
+      left: 0;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    // TEST: hover animation
+    // .mate:hover{
+    //   .floating-t {
+    //     opacity: 1;
+    //   }
+    // }
+    // .team:hover{
+    //   .floating-m {
+    //     opacity: 1;
+    //   }
+    // }
+
+    // TEST: keyframe animation
+    // .floating-t {
+    //   position: absolute;
+    //   left: 0;
+    //   animation: fadeOut 2.5s forwards;
+    // }
+    // .team {
+    //   animation: fadeIn 2.5s forwards;
+    // }
+    // @keyframes fadeOut {
+    //   from {opacity: 1;}
+    //   20% {opacity: 1;}
+    //   to {opacity: 0;}
+    // }
+    // @keyframes fadeIn {
+    //   from {opacity: 0;}
+    //   20% {opacity: 0;}
+    //   to {opacity: 1;}
+    // }
+  }
+}

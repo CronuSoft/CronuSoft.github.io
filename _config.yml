@@ -1,0 +1,14 @@
+title: "Cronusoft"
+description: "Coding your ideas"
+
+collections:
+- team_members
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- package.json
+- bower.json
+- Gruntfile.coffee
+- bower_components
+- node_modules

@@ -1,0 +1,23 @@
+{
+  "name": "Cronusoft",
+  "version": "0.0.0",
+  "homepage": "cronusoft.github.io",
+  "authors": [
+    "Cronusoft"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.1",
+    "jquery-migrate": "1.2.1",
+    "jquery.easing": "v1.3",
+    "font-awesome": "4.2.0",
+    "bootstrap": "3.3.0",
+    "jquery.scrollTo": "~2.1.1"
+  }
+}
