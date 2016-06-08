@@ -660,7 +660,7 @@ a:focus {
   width: 25px;
 }
 .title .logo-capital-letter {
-  padding-right: 8px;
+  padding-right: 0px;
 }
 .icon-holder i {
   color: #ea5835 !important;
