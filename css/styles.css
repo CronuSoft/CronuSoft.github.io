@@ -584,6 +584,9 @@ pre code {
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+  .logo-img {
+    height: 55px;
+  }
   .header {
     background: #5c6f77;
   }
