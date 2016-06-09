@@ -588,7 +588,7 @@ pre code {
     height: 55px;
   }
   .header {
-    background: #5c6f77;
+    background: rgba(0, 0, 0, 0.5);
   }
   .header .main-nav button {
     margin-right: 0;
