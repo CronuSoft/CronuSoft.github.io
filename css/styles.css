@@ -120,6 +120,10 @@ pre code {
 .header.navbar-fixed-top .main-nav .nav .nav-item a {
   color: #666666;
 }
+.header.navbar-fixed-top .main-nav button {
+  background: #191f21;
+  color: #fff !important;
+}
 .header .logo-start {
   display: block;
 }
@@ -144,8 +148,8 @@ pre code {
   text-decoration: none;
 }
 .header .main-nav button {
-  background: #191f21;
-  color: #fff !important;
+  background: #ea5835;
+  color: #000 !important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -580,6 +584,9 @@ pre code {
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+  .header {
+    background: #5c6f77;
+  }
   .header .main-nav button {
     margin-right: 0;
   }
