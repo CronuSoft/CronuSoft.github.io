@@ -82,7 +82,6 @@ pre code {
 /* ======= Header ======= */
 .header {
     padding: 10px 0;
-    background: @color;
     color: #fff;
     position: fixed;
     width: 100%;
@@ -97,11 +96,31 @@ pre code {
                 color: @color;
             }
         }
+        .logo-ronu {
+          color: black;
+        }
+        .logo-start {
+          display:none;
+        }
+        .logo-fixed {
+          display:block;
+        }
         .main-nav .nav .nav-item a {
             color: @text-secondary;
         }
     }
-
+    .logo-start {
+      display:block;
+    }
+    .logo-fixed {
+      display:none;
+    }
+    .logo-ronu {
+      color: white;
+    }
+    .logo-color {
+      fill: white;
+    }
     .logo {
         margin: 0;
         font-size: 26px;

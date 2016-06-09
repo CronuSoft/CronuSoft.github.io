@@ -93,7 +93,6 @@ pre code {
 /* ======= Header ======= */
 .header {
   padding: 10px 0;
-  background: #5c6f77;
   color: #fff;
   position: fixed;
   width: 100%;
@@ -109,8 +108,29 @@ pre code {
 .header.navbar-fixed-top .logo a {
   color: #5c6f77;
 }
+.header.navbar-fixed-top .logo-ronu {
+  color: black;
+}
+.header.navbar-fixed-top .logo-start {
+  display: none;
+}
+.header.navbar-fixed-top .logo-fixed {
+  display: block;
+}
 .header.navbar-fixed-top .main-nav .nav .nav-item a {
   color: #666666;
+}
+.header .logo-start {
+  display: block;
+}
+.header .logo-fixed {
+  display: none;
+}
+.header .logo-ronu {
+  color: white;
+}
+.header .logo-color {
+  fill: white;
 }
 .header .logo {
   margin: 0;
