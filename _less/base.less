@@ -82,8 +82,8 @@ pre code {
 /* ======= Header ======= */
 .header {
     padding: 10px 0;
-    background: @color;
     color: #fff;
+    background:rgba(0,0,0,0.5);
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -97,11 +97,35 @@ pre code {
                 color: @color;
             }
         }
+        .logo-ronu {
+          color: black;
+        }
+        .logo-start {
+          display:none;
+        }
+        .logo-fixed {
+          display:block;
+        }
         .main-nav .nav .nav-item a {
             color: @text-secondary;
         }
+        .main-nav button {
+          background: @color-darker;
+          color: #fff !important;
+        }
     }
-
+    .logo-start {
+      display:block;
+    }
+    .logo-fixed {
+      display:none;
+    }
+    .logo-ronu {
+      color: white;
+    }
+    .logo-color {
+      fill: white;
+    }
     .logo {
         margin: 0;
         font-size: 26px;
@@ -115,8 +139,8 @@ pre code {
     }
     .main-nav {
         button {
-            background: @color-darker;
-            color: #fff !important;
+            background: @color-2;
+            color: #000 !important;
             .border-radius(4px);
             &:focus {
                 outline: none;
@@ -145,7 +169,7 @@ pre code {
                     font-size: 14px;
                     padding: 15px 10px;
                     &:hover {
-                        color: @color-darker;
+                        color: @color-2;
                         background: none;
                     }
                     &:focus {
@@ -217,7 +241,6 @@ pre code {
     }
 
     .social-media {
-        background: darken(@color, 15%);
         padding: 10px 0;
         margin: 0 auto;
         li {

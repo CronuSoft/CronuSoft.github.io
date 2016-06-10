@@ -93,8 +93,8 @@ pre code {
 /* ======= Header ======= */
 .header {
   padding: 10px 0;
-  background: #5c6f77;
   color: #fff;
+  background: rgba(0, 0, 0, 0.5);
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -109,8 +109,33 @@ pre code {
 .header.navbar-fixed-top .logo a {
   color: #5c6f77;
 }
+.header.navbar-fixed-top .logo-ronu {
+  color: black;
+}
+.header.navbar-fixed-top .logo-start {
+  display: none;
+}
+.header.navbar-fixed-top .logo-fixed {
+  display: block;
+}
 .header.navbar-fixed-top .main-nav .nav .nav-item a {
   color: #666666;
+}
+.header.navbar-fixed-top .main-nav button {
+  background: #191f21;
+  color: #fff !important;
+}
+.header .logo-start {
+  display: block;
+}
+.header .logo-fixed {
+  display: none;
+}
+.header .logo-ronu {
+  color: white;
+}
+.header .logo-color {
+  fill: white;
 }
 .header .logo {
   margin: 0;
@@ -124,8 +149,8 @@ pre code {
   text-decoration: none;
 }
 .header .main-nav button {
-  background: #191f21;
-  color: #fff !important;
+  background: #ea5835;
+  color: #000 !important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -154,7 +179,7 @@ pre code {
   background: none;
 }
 .header .main-nav .nav .nav-item a {
-  color: #f5f5f5;
+  color: #ffffff;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -163,7 +188,7 @@ pre code {
   padding: 15px 10px;
 }
 .header .main-nav .nav .nav-item a:hover {
-  color: #191f21;
+  color: #ea5835;
   background: none;
 }
 .header .main-nav .nav .nav-item a:focus {
@@ -220,7 +245,6 @@ pre code {
   color: #191f21;
 }
 .promo .social-media {
-  background: #3b474c;
   padding: 10px 0;
   margin: 0 auto;
 }
@@ -235,7 +259,7 @@ pre code {
 /* ======= About Section ======= */
 .about {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: #ffffff;
 }
 .about .title {
   color: #191f21;
@@ -281,7 +305,7 @@ pre code {
   margin-bottom: 30px;
 }
 .features .intro {
-  color: #f5f5f5;
+  color: #ffffff;
 }
 .features a {
   color: #191f21;
@@ -295,15 +319,15 @@ pre code {
 }
 .features .feature-list li .fa {
   margin-right: 5px;
-  color: #f5f5f5;
+  color: #ffffff;
 }
 .features .feature-list .feature {
-  color: #f5f5f5;
+  color: #ffffff;
 }
 /* ======= Docs Section ======= */
 .docs {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: #ffffff;
 }
 .docs .title {
   color: #191f21;
@@ -343,7 +367,7 @@ pre code {
 /* ======= License Section ======= */
 .license {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: #ffffff;
 }
 .license .title {
   margin-top: 0;
@@ -561,6 +585,12 @@ pre code {
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+  .logo-img {
+    height: 55px;
+  }
+  .header {
+    background: rgba(0, 0, 0, 0.5);
+  }
   .header .main-nav button {
     margin-right: 0;
   }
@@ -660,7 +690,7 @@ a:focus {
   width: 25px;
 }
 .title .logo-capital-letter {
-  padding-right: 8px;
+  padding-right: 0px;
 }
 .icon-holder i {
   color: #ea5835 !important;
@@ -719,7 +749,7 @@ a:focus {
   margin: 5px 0;
   padding: 5px 10px;
   border-radius: 4px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 #team .profile-picture {
   border-radius: 50%;
