@@ -663,10 +663,6 @@ a:focus {
 .logo-title .logo-capital-letter {
   display: inline-block;
 }
-.logo-title .logo-text {
-  -webkit-transition: opacity 0.2s ease-in-out;
-  opacity: 0;
-}
 .logo-title .logo-cronu,
 .logo-title .logo-soft {
   position: relative;
@@ -679,12 +675,6 @@ a:focus {
 }
 .logo-title .logo-soft {
   color: #ea5835;
-}
-.logo-title .logo-soft .logo-capital-letter {
-  -webkit-transition: top, left 0.4s ease-in-out;
-  color: #ea5835;
-  position: relative;
-  left: -82px;
 }
 .logo-title .logo-capital-letter img {
   width: 25px;
