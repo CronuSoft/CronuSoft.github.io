@@ -691,7 +691,7 @@ a:focus {
 #promo {
   height: 100vh;
   padding-top: 35vh;
-  background-image: url("http://download.1wallpaper.net/20150927/mountains-night-sky-stars-1920x1200.jpg"), url("../images/mountains-night-sky-stars-1920x1200.jpg");
+  background-image: url("../images/mountains-night-sky-stars-1920x1200.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
