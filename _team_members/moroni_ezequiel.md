@@ -6,4 +6,4 @@ linkedin: https://www.linkedin.com/in/ezequielmoroni
 github: https://github.com/ezemoro
 ---
 
-Ezequiel spent __15 months__ travelling the world throughout __28 countries__ and proved to us that we can run a business from anywhere. He operated and contributed daily to our clients from all ends of the world.
+Software engineer. He is detail oriented and is always trying to get the best out of your products. .Net hacker. Loves to work in front-end design.

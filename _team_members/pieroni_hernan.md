@@ -6,4 +6,4 @@ linkedin: https://www.linkedin.com/in/hpieroni
 github: https://github.com/hpieroni
 ---
 
-See the ball that Hernan is balancing on his shoulder? That's an illusion, the picture of Hernan was taken at the Equator. While his left hand experienced __summer__, his right hand experienced __winter__!
+Software engineer. Open source hacker, Ruby specialist. He is concerned about using best practices and automated testing. Passionate about technology.
