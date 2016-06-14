@@ -1,6 +1,6 @@
 ---
 name: Ezequiel Moroni
-profile-picture: images/team-members/ezequiel_moroni.jpg
+profile-picture: images/team-members/ezequiel_moroni.png
 facebook: https://www.facebook.com/ezemoroni
 linkedin: https://www.linkedin.com/in/ezequielmoroni
 github: https://github.com/ezemoro
