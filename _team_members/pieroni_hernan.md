@@ -6,4 +6,4 @@ linkedin: https://www.linkedin.com/in/hpieroni
 github: https://github.com/hpieroni
 ---
 
-Software engineer. Open source hacker, Ruby specialist. He is concerned about using best practices and automated testing. Passionate about technology.
+Software engineer. Open source lover, Ruby specialist. He is concerned about using best practices and automated testing. Passionate about technology.
