@@ -1,9 +1,9 @@
 ---
 name: Hernan Pieroni
-profile-picture: images/team-members/pieroni_hernan.jpg
+profile-picture: images/team-members/pieroni_hernan.png
 facebook: https://www.facebook.com/hernan.pieroni
 linkedin: https://www.linkedin.com/in/hpieroni
 github: https://github.com/hpieroni
 ---
 
-Software engineer. Open source lover, Ruby specialist. He is concerned about using best practices and automated testing. Passionate about technology.
+Software engineer. Fullstack Javascript specialist. He is concerned about using best practices. Passionate about technology and always looking for new things.
