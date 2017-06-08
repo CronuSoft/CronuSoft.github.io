@@ -771,6 +771,8 @@ a:focus {
 }
 .thumbnail .image-container img {
   width: 100%;
+  height: inherit;
+  object-fit: cover;
 }
 #benefits {
   color: #191f21;
