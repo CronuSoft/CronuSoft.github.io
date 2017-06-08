@@ -765,15 +765,17 @@ a:focus {
   color: white;
   margin-bottom: 40px;
 }
-.thumbnail {
-  height: 380px;
-}
 .thumbnail .image-container {
   height: 170px;
   overflow: hidden;
 }
 .thumbnail .image-container img {
   width: 100%;
+}
+.thumbnail.portfolio {
+  height: 380px;
+}
+.thumbnail.portfolio .image-container img {
   height: inherit;
   object-fit: cover;
 }
