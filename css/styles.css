@@ -765,6 +765,9 @@ a:focus {
   color: white;
   margin-bottom: 40px;
 }
+.thumbnail {
+  height: 380px;
+}
 .thumbnail .image-container {
   height: 170px;
   overflow: hidden;
